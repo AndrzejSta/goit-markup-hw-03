@@ -1,0 +1,153 @@
+body {
+  color: #212121;
+  font-family: Roboto, raleway sans-serif;
+}
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+.button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.name-project {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.type-project {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link-text-header {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.link-text-header:hover {
+  color: #2196f3;
+}
+.text-footer {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.link-text-header2 {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.link-text-header2:hover {
+  color: #2196f3;
+}
+.link-text-footer2 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+}
+.link-text-footer2:hover {
+  color: #2196f3;
+}
+.logo {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.color-logo {
+  color: #2196f3;
+  font-style: normal;
+}
+.team {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.workplace {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+ul {
+  list-style-type: none;
+}
+.lorem1 {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.lorem2 {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.header-name {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.slogan {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+.header1 {
+  background-color: #ffffff;
+}
+.slogan1 {
+  background-color: #2f303a;
+}
+.what-we-do {
+  background-color: #ffffff;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.footer-address {
+  background-color: #2f303a;
+}
+.main-section {
+  background-color: #ffffff;
+}
+.color-logo2 {
+  color: #ffffff;
+  font-style: normal;
+}
