@@ -63,6 +63,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 .link-text-header2 {
   color: #757575;
@@ -146,7 +149,6 @@ ul {
   text-align: center;
   width: 210px;
   height: 42px;
-  border: #212121 solid;
 }
 .slogan {
   color: #ffffff;
@@ -168,7 +170,6 @@ ul {
   align-items: center;
   width: 1600px;
   height:80px;
-  border:solid black;
   margin:0px 0px 0px 0px;
 }
 .slogan1 {
@@ -186,6 +187,7 @@ ul {
   background-color: #f5f4fa;
   width: 1600px;
   height: 648px;
+  padding-top: 94px;
 
 }
 .footer-address {
@@ -194,6 +196,8 @@ ul {
   height: 252px;
   display: flex;
   flex-direction: column;
+  padding-left: 215px;
+  padding-top: 60px;
 }
 .main-section {
   background-color: #ffffff;
@@ -208,13 +212,11 @@ ul {
 }
 .menu{
   display:flex;
-  border:solid #212121;
   padding-left: 0px;
 }
 .contact
 {
   display:flex;
-  border:solid black;
   height: 16px;
   padding-left: 0px;
   margin-top:32px;
@@ -224,7 +226,6 @@ ul {
 }
 .menu-link
 {
-  border:solid black;
   display: flex;
   height: 16px;
   padding-left: 46px;
@@ -234,7 +235,6 @@ ul {
 }
 .menu-link1
 {
-  border:solid black;
   display: flex;
   height: 16px;
   padding-left: 93px;
@@ -243,7 +243,6 @@ ul {
 }
 .webstudio-logo
 {
-  border:solid black;
   width: 145px;
   height: 31px;
   margin-top: 24px;
@@ -253,12 +252,10 @@ ul {
 }
 .contact-link1
 {
-  border:solid black;
   display: flex;
 }
 .contact-link2
 {
-  border:solid black;
   display: flex;
   padding-left: 50px;
 }
@@ -277,7 +274,6 @@ ul {
   justify-content: center;
   width: 1170px;
   height: 294px;
-  border:#212121 solid;
   margin-left: 215px;
   margin-right: 215px;
   padding-left: 0px;
@@ -294,11 +290,11 @@ margin-right:30px;
   display: flex;
   width: 1170px;
   height: 368px;
-  border: #212121 solid;
   margin-left: 215px;
   margin-right: 215px;
   margin-bottom: 94px;
   margin-top: 50px;
+  padding-left: 0px;
 }
 .employee-team
 {
@@ -311,4 +307,13 @@ margin-right:30px;
 .footer-address1
 {
   display:block
+}
+.mail-tel-footer
+{
+  padding-left: 0px;
+  margin-top: 9px;
+}
+.mail
+{
+  margin-bottom: 9px;
 }
