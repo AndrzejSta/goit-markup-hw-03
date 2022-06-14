@@ -185,8 +185,9 @@ ul {
   border: 1px solid var(--red);
 }
 .container {
-  width: 1600px;
-  margin: auto;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .menu {
   display: inline-flex;
@@ -270,4 +271,26 @@ ul {
 }
 .contact-footer1 {
   margin-top: 9px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+.button-list1 {
+  margin-left: 8px;
+}
+.images-list2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.images-list-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: #eeeeee solid 1px;
+  flex-basis: calc((100% - 60px) / 3);
 }
