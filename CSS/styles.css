@@ -140,30 +140,24 @@ ul {
   background-color: #ffffff;
   display: inline-flex;
   border-bottom: #ececec solid 1px;
-  padding-left: 215px;
-  padding-top: 24px;
-  padding-bottom: 25px;
   align-items: baseline;
 }
 .slogan1 {
   background-color: var(--slogan);
   text-align: center;
-  padding: 200px 452px 200px 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .what-we-do {
   background-color: #ffffff;
-  padding: 94px 215px 94px 215px;
+  padding-top: 94px;
 }
 .our-team {
   background-color: var(--our-team);
-  padding: 94px 215px 94px 215px;
   text-align: center;
 }
 .footer-address {
   background-color: var(--footer);
-  padding-top: 60px;
-  padding-left: 215px;
-  padding-bottom: 60px;
 }
 .main-section {
   background-color: var(--main-section);
@@ -220,12 +214,11 @@ ul {
 }
 .images-work {
   text-align: center;
-  padding-left: 215px;
-  padding-right: 215px;
-  padding-bottom: 94px;
 }
 .images-list {
   display: flex;
+  padding-left: 0px;
+  margin: 0px;
 }
 .images-list1 {
   margin-left: 30px;
@@ -279,6 +272,8 @@ ul {
 .button-list {
   display: flex;
   justify-content: center;
+  padding: 0px;
+  margin: 0px;
 }
 .button-list1 {
   margin-left: 8px;
@@ -287,6 +282,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 .images-list-item {
   display: flex;
