@@ -33,12 +33,16 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  border-left: #eeeeee solid 1px;
+  border-right: #eeeeee solid 1px;
 }
 .type-project {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  border-left: #eeeeee solid 1px;
+  border-right: #eeeeee solid 1px;
 }
 .link:hover {
   color: #2196f3;
@@ -138,7 +142,7 @@ ul {
 }
 .header1 {
   background-color: #ffffff;
-  display: inline-flex;
+  display: flex;
   border-bottom: #ececec solid 1px;
   align-items: baseline;
 }
@@ -150,7 +154,6 @@ ul {
 }
 .what-we-do {
   background-color: #ffffff;
-  padding-top: 94px;
 }
 .our-team {
   background-color: var(--our-team);
@@ -195,14 +198,12 @@ ul {
 }
 .contact-header {
   display: inline-flex;
-  padding-left: 0px;
-  margin: 0px 227px 0px 371px;
+  margin-left: auto;
 }
 .contact-tel {
   margin-left: 50px;
 }
 .lorem-list {
-  margin: 0px;
   display: flex;
 }
 .lorem-list1 {
@@ -217,8 +218,6 @@ ul {
 }
 .images-list {
   display: flex;
-  padding-left: 0px;
-  margin: 0px;
   justify-content: center;
 }
 .images-list1 {
@@ -227,8 +226,6 @@ ul {
 }
 .team-list {
   display: flex;
-  margin: 0px;
-  padding: 0px;
   justify-content: center;
 }
 .team-list1 {
@@ -260,10 +257,6 @@ ul {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.contact-footer {
-  margin: 0px;
-  padding-left: 0px;
-}
 .contact-footer1 {
   margin-top: 9px;
 }
@@ -274,8 +267,6 @@ ul {
 .button-list {
   display: flex;
   justify-content: center;
-  padding: 0px;
-  margin: 0px;
 }
 .button-list1 {
   margin-left: 8px;
@@ -284,13 +275,15 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0px;
   margin-top: 50px;
-  margin-bottom: 0px;
 }
 .images-list-item {
   display: flex;
   flex-direction: column;
   border-bottom: #eeeeee solid 1px;
   flex-basis: calc((100% - 60px) / 3);
+}
+ul {
+  padding: 0px;
+  margin: 0px;
 }
