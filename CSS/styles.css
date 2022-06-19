@@ -35,6 +35,8 @@ body {
   line-height: 2;
   border-left: #eeeeee solid 1px;
   border-right: #eeeeee solid 1px;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .type-project {
   color: #757575;
@@ -43,6 +45,8 @@ body {
   line-height: 1.9;
   border-left: #eeeeee solid 1px;
   border-right: #eeeeee solid 1px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 .link:hover {
   color: #2196f3;
@@ -143,8 +147,9 @@ ul {
 .header1 {
   background-color: #ffffff;
   display: flex;
-  border-bottom: #ececec solid 1px;
   align-items: baseline;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .slogan1 {
   background-color: var(--slogan);
@@ -154,6 +159,7 @@ ul {
 }
 .what-we-do {
   background-color: #ffffff;
+  padding-top: 94px;
 }
 .our-team {
   background-color: var(--our-team);
@@ -161,6 +167,8 @@ ul {
 }
 .footer-address {
   background-color: var(--footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .main-section {
   background-color: var(--main-section);
@@ -188,6 +196,8 @@ ul {
 }
 .menu {
   display: inline-flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-left: 93px;
 }
 .menu-portfolio {
@@ -286,4 +296,7 @@ ul {
 ul {
   padding: 0px;
   margin: 0px;
+}
+.header-border {
+  border-bottom: #ececec solid 1px;
 }
